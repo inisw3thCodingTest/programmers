@@ -2,8 +2,8 @@ def solution(s):
     num_li = s.split(" ")  # 1. 리스트 형태로 저장.
 
     # 2. 최대값 최소값 설정
-    min = 999
-    max = -999
+    min = 99999
+    max = -99999
 
     for num in num_li:
         num = int(num) # 숫자형태로 바꿔준다.
